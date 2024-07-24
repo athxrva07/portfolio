@@ -1,4 +1,4 @@
-import aboutImg from "../assets/profilePicture.png";
+import aboutImg from "../assets/aboutPicture.jpg";
 
 const About = () => {
   return <div className="border-b border-neutral-900 pb-4">
@@ -8,7 +8,7 @@ const About = () => {
     <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2 lg:p-8">
             <div className="flex item-center justify-center">
-                <img  className="rounded-2xl" src={aboutImg} alt="about"/>
+                <img className="rounded-xl" src={aboutImg} alt="about"/>
             </div>
         </div>
     </div>
