@@ -7,6 +7,11 @@ const Navbar = () => {
     <div className="flex flex-shrink-0 items-center">
         <img src={logo} alt="logo" />
     </div>
+
+    <div>
+        <FaLinkedin />
+        <FaGithub />
+    </div>
   </nav>
 
 };
