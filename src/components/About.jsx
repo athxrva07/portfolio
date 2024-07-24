@@ -1,4 +1,4 @@
-import aboutImg from "../assets/aboutPicture.jpg";
+import aboutImg from "../assets/about.png";
 
 const About = () => {
   return <div className="border-b border-neutral-900 pb-4">
