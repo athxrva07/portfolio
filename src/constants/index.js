@@ -19,29 +19,33 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Swiftbot: raspberry Pi based robot game",
     image: project1,
+    link: "https://github.com/athxrva07/Draw-Shapes",
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    technologies: ["Java", "Raspberry Pi", "Motion Control", "File Handling", "API Integration"],
   },
   {
-    title: "Task Management App",
+    title: "Currency Converter",
     image: project2,
+    link: "https://athxrva07.github.io/Currency-Converter/",
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    technologies: ["HTML", "CSS", "JavaScript", "API Integration"],
   },
   {
-    title: "Portfolio Website",
+    title: "Regal Residences Website",
     image: project3,
+    link: "https://athxrva07.github.io/Regal-Residences/",
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["HTML", "CSS", "JavaScript", "Frontend Design"],
   },
   {
     title: "Blogging Platform",
     image: project4,
+    link: "",
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
     technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
