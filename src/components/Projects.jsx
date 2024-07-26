@@ -2,7 +2,7 @@ import { PROJECTS } from "../constants";
 
 const Projects = () => {
   return (
-    <div className="pb-4 border-b border-neutral-900">
+    <div className="border-b border-neutral-900">
       <h2 className="my-20 text-4xl text-center">PROJECTS</h2>
       <div className="">
         {PROJECTS.map((project, index) => (
