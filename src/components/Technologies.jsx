@@ -27,7 +27,7 @@ const Technologies = () => {
             <RiReactjsLine className="text-7xl text-cyan-400"/>
         </div>
         <div className="p-4 border-4 rounded-2xl border-neutral-800">
-            <RiNodejsLine className="text-green-700 text-7xl"/>
+            <RiNodejsLine className="text-green-600 text-7xl"/>
         </div>
         <div className="p-4 border-4 rounded-2xl border-neutral-800">
             <TbBrandMysql className="text-7xl text-cyan-900"/>
