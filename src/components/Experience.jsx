@@ -18,6 +18,10 @@ const Experience = () => {
                    {experience.company}
                  </span>
                </h6>
+               <p className="mb-4 text-neutral-400">{experience.description}</p>
+               {experience.technologies.map((tech, index) => (
+                <span key={index} className="px-2 py-1 mt-4 mr-2 text-sm font-medium rounded text-cyan-400 bg-neutral-900">{tech}</span>
+               ))}
             </div>
           </div>
         ))}
