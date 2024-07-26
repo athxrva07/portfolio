@@ -11,7 +11,7 @@ const Projects = () => {
                   <img src={project.image} width={150} height={150} alt={project.title} className="mb-6 rounded"/>
                 </div>
                 <div className="w-full max-w-xl lg:w-3/4">
-                    <h6>{project.title}</h6>
+                    <h6 className="mb-2 font-semibold">{project.title}</h6>
                     <p>{project.description}</p>
                 </div>
             </div>
