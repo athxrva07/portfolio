@@ -5,33 +5,82 @@ import { SiExpress } from "react-icons/si";
 import { RiReactjsLine } from "react-icons/ri";
 import { RiNodejsLine } from "react-icons/ri";
 import { TbBrandMysql } from "react-icons/tb";
+import { motion } from "framer-motion";
+
+const iconVariants = (duration) => ({
+  initial: {y: -10},
+  animate: {
+    y: [10, -10],
+    transition: {
+      duration: duration,
+      ease: "linear",
+      repeat: Infinity,
+      repeatType: "reverse"
+    }
+  },
+});
 
 const Technologies = () => {
   return (
     <div className="pb-24 border-b border-neutral-900">
       <h2 className="my-20 text-4xl text-center">TECHNOLOGIES</h2>
       <div className="flex flex-wrap items-center justify-center gap-4">
-        <div className="p-4 border-4 rounded-2xl border-neutral-800">
+        <motion.div 
+        variants={iconVariants(2.5)}
+        initial="initial"
+        animate="animate"
+        className="p-4 border-4 rounded-2xl border-neutral-800">
             <FaJava className="text-orange-400 text-7xl"/>
-        </div>
-        <div className="p-4 border-4 rounded-2xl border-neutral-800">
+        </motion.div>
+        
+        <motion.div 
+        variants={iconVariants(3.5)}
+        initial="initial"
+        animate="animate"
+        className="p-4 border-4 rounded-2xl border-neutral-800">
             <TbBrandPython className="text-blue-900 text-7xl"/>
-        </div>
-        <div className="p-4 border-4 rounded-2xl border-neutral-800">
+        </motion.div>
+        
+        <motion.div 
+        variants={iconVariants(5)}
+        initial="initial"
+        animate="animate"
+        className="p-4 border-4 rounded-2xl border-neutral-800">
             <TbBrandMongodb className="text-green-500 text-7xl"/>
-        </div>
-        <div className="p-4 border-4 rounded-2xl border-neutral-800">
+        </motion.div>
+
+        <motion.div 
+        variants={iconVariants(2)}
+        initial="initial"
+        animate="animate"
+        className="p-4 border-4 rounded-2xl border-neutral-800">
             <SiExpress className="text-7xl"/>
-        </div>
-        <div className="p-4 border-4 rounded-2xl border-neutral-800">
+        </motion.div>
+        
+        <motion.div 
+        variants={iconVariants(6)}
+        initial="initial"
+        animate="animate"
+        className="p-4 border-4 rounded-2xl border-neutral-800">
             <RiReactjsLine className="text-7xl text-cyan-400"/>
-        </div>
-        <div className="p-4 border-4 rounded-2xl border-neutral-800">
+        </motion.div>
+        
+        <motion.div 
+        variants={iconVariants(4.)}
+        initial="initial"
+        animate="animate"
+        className="p-4 border-4 rounded-2xl border-neutral-800">
             <RiNodejsLine className="text-green-600 text-7xl"/>
-        </div>
-        <div className="p-4 border-4 rounded-2xl border-neutral-800">
+        </motion.div>
+        
+        <motion.div 
+        variants={iconVariants(1.5)}
+        initial="initial"
+        animate="animate"
+        className="p-4 border-4 rounded-2xl border-neutral-800">
             <TbBrandMysql className="text-7xl text-sky-700"/>
-        </div>
+        </motion.div>
+        
       </div>
     </div>
 
