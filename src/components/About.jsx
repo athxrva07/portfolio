@@ -14,7 +14,7 @@ const About = () => {
         </div>
         <div className="w-full lg:w-1/2">
             <div className="flex justify-center lg:justify-start">
-              <p className="max-w-xl py-6 my-2 font-light tracking-tighter">{ABOUT_TEXT}</p>
+              <p className="max-w-xl py-6 my-8 font-light tracking-tighter">{ABOUT_TEXT}</p>
             </div>
         </div>
     </div>
