@@ -1,5 +1,7 @@
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandMongodb } from "react-icons/tb";
+import { TbBrandNextjs } from "react-icons/tb";
+
 const Technologies = () => {
   return (
     <div className="pb-24 border-b border-neutral- 800">
@@ -12,7 +14,7 @@ const Technologies = () => {
             <TbBrandMongodb className="text-7xl text-cyan-400"/>
         </div>
         <div className="p-4 border-4 rounded-2xl border-neutral-800">
-            <RiReactjsLine className="text-7xl text-cyan-400"/>
+            <TbBrandNextjs className="text-7xl text-cyan-400"/>
         </div>
         <div className="p-4 border-4 rounded-2xl border-neutral-800">
             <RiReactjsLine className="text-7xl text-cyan-400"/>
