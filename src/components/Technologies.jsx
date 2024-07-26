@@ -1,12 +1,24 @@
 import { RiReactjsLine } from "react-icons/ri";
-
+import { TbBrandMongodb } from "react-icons/tb";
 const Technologies = () => {
   return (
-    <div className="border-b border-neutral- 800 pb-24">
-      <h2 className="my-20 text-center text-4xl">Technologies</h2>
-      <div className="flex  flex-wrap items-center justify-center gap-4">
-        <div className="rounded-2xl border-4 border-neutral-800 p-4">
-            <RiReactjsLine />
+    <div className="pb-24 border-b border-neutral- 800">
+      <h2 className="my-20 text-4xl text-center">Technologies</h2>
+      <div className="flex flex-wrap items-center justify-center gap-4">
+        <div className="p-4 border-4 rounded-2xl border-neutral-800">
+            <RiReactjsLine className="text-7xl text-cyan-400"/>
+        </div>
+        <div className="p-4 border-4 rounded-2xl border-neutral-800">
+            <TbBrandMongodb className="text-7xl text-cyan-400"/>
+        </div>
+        <div className="p-4 border-4 rounded-2xl border-neutral-800">
+            <RiReactjsLine className="text-7xl text-cyan-400"/>
+        </div>
+        <div className="p-4 border-4 rounded-2xl border-neutral-800">
+            <RiReactjsLine className="text-7xl text-cyan-400"/>
+        </div>
+        <div className="p-4 border-4 rounded-2xl border-neutral-800">
+            <RiReactjsLine className="text-7xl text-cyan-400"/>
         </div>
       </div>
     </div>
