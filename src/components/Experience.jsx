@@ -9,7 +9,7 @@ const Experience = () => {
           <div 
             key={index} className="flex flex-wrap mb-8 lg:justify-center">
              <div className="w-full lg:w-1/4">
-                <p className="mb-2 text-sm text-neutral-400">{experience.year}</p>
+                <p className="mb-2 text-sm text-neutral-100">{experience.year}</p>
              </div>
              <div className="w-full max-w-xl lg:w-3/4">
                <h6 className="mb-2 font-semibold">

@@ -6,7 +6,7 @@ const Projects = () => {
       <h2 className="my-20 text-4xl text-center">PROJECTS</h2>
       <div className="">
         {PROJECTS.map((project, index) => (
-          <div key={index} className="flex flex-wrap mb-8 lg:justify-center">
+          <div key={index} className="flex flex-wrap mb-16 lg:justify-center">
             <div className="w-full lg:w-1/4">
               <a href={project.link} target="_blank" rel="noopener noreferrer">
                 <img src={project.image} width={150} height={150} alt={project.title} className="mb-6 rounded"/>
