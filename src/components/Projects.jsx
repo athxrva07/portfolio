@@ -12,6 +12,7 @@ const Projects = () => {
                 </div>
                 <div className="w-full max-w-xl lg:w-3/4">
                     <h6>{project.title}</h6>
+                    <p>{project.description}</p>
                 </div>
             </div>
         ))}
