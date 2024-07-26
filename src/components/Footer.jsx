@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className="font-semibold text-center">© Copyright 2023 By Atharva Choudhary</div>
+    <div className="font-semibold text-center">© Copyright 2024 By Atharva Choudhary</div>
   )
 }
 

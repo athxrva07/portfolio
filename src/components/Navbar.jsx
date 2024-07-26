@@ -7,7 +7,7 @@ const Navbar = () => {
         
     </div>
 
-    <div className="flex items-center justify-center gap-4 m-8 text-2xl">
+    <div className="flex items-center justify-center gap-4 m-8 text-4xl">
         <a href="https://www.linkedin.com/in/atharva-choudhary-1ba373277" target="_blank" rel="noopener noreferrer">
           <FaLinkedin />
         </a>
