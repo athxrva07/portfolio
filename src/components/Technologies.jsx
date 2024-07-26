@@ -23,8 +23,18 @@ const iconVariants = (duration) => ({
 const Technologies = () => {
   return (
     <div className="pb-24 border-b border-neutral-900">
-      <h2 className="my-20 text-4xl text-center">TECHNOLOGIES</h2>
-      <div className="flex flex-wrap items-center justify-center gap-4">
+      <motion.h2 
+      whileInView={{opacity: 1, y: 0}}
+      initial={{opacity: 0, y: -100}}
+      transition={{duration: 1.5}}
+      className="my-20 text-4xl text-center">TECHNOLOGIES</motion.h2>
+      
+      <motion.div 
+      whileInView={{opacity: 1, x: 0}}
+      initial={{opacity: 0, x: -100}}
+      transition={{duration: 1.5}}
+      className="flex flex-wrap items-center justify-center gap-4">
+        
         <motion.div 
         variants={iconVariants(2.5)}
         initial="initial"
@@ -81,7 +91,7 @@ const Technologies = () => {
             <TbBrandMysql className="text-7xl text-sky-700"/>
         </motion.div>
         
-      </div>
+      </motion.div>
     </div>
 
   );
