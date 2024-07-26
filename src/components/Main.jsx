@@ -1,5 +1,5 @@
 import React from 'react';
-import {HERO_CONTENT} from "../constants"
+import {MAIN_CONTENT} from "../constants"
 import profilePic from "../assets/profile.png";
 import { motion } from "framer-motion"
 
@@ -12,7 +12,7 @@ const container = (delay) => ({
   },
 });
 
-const Hero = () => {
+const Main = () => {
   return (
     <div className="pb-16 border-b border-neutral-900 lg:mb-35">
       <div className="flex flex-wrap">
@@ -37,7 +37,7 @@ const Hero = () => {
                   variants={container(1)}
                   initial="hidden"
                   animate="visible"
-                  className='max-w-xl py-6 my-2 font-light tracking-tighter'>{HERO_CONTENT}
+                  className='max-w-xl py-6 my-2 font-light tracking-tighter'>{MAIN_CONTENT}
                 </motion.p>
                 
             </div>
@@ -59,4 +59,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Main;

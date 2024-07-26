@@ -2,7 +2,7 @@ import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 
-export const HERO_CONTENT = `I am a first year Computer Science student based in London, United Kingdom.  I have a strong foundation in programming and a passion for technology, constantly exploring the fascinating world of digital security and its diverse applications.`;
+export const MAIN_CONTENT = `I am a first year Computer Science student based in London, United Kingdom.  I have a strong foundation in programming and a passion for technology, constantly exploring the fascinating world of digital security and its diverse applications.`;
 
 export const ABOUT_TEXT = "I’m Atharva, and I am currently pursuing a bachelor’s degree in computer science at Brunel University in the city of London. My academic journey is driven by a passion for digital security, and I’m continuously exploring the ever-evolving landscape of this critical field. Though I’m still exploring the various specializations within computer science, my enthusiasm keeps me engaged with the latest trends and breakthroughs in technology. Outside of my studies, I enjoy a well-rounded lifestyle. Video games offer me not just entertainment but also a sense of challenge and accomplishment. Additionally, my love for sports finds me eagerly following football and basketball, where the excitement of the games is always captivating.";
 
