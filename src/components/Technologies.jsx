@@ -30,7 +30,7 @@ const Technologies = () => {
             <RiNodejsLine className="text-green-600 text-7xl"/>
         </div>
         <div className="p-4 border-4 rounded-2xl border-neutral-800">
-            <TbBrandMysql className="text-7xl text-cyan-900"/>
+            <TbBrandMysql className="text-7xl text-sky-700"/>
         </div>
       </div>
     </div>
