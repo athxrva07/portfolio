@@ -1,8 +1,8 @@
-import { RiReactjsLine } from "react-icons/ri";
-import { TbBrandMongodb } from "react-icons/tb";
 import { FaJava } from "react-icons/fa6";
 import { TbBrandPython } from "react-icons/tb";
+import { TbBrandMongodb } from "react-icons/tb";
 import { SiExpress } from "react-icons/si";
+import { RiReactjsLine } from "react-icons/ri";
 import { RiNodejsLine } from "react-icons/ri";
 
 const Technologies = () => {
