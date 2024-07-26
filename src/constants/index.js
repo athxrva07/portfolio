@@ -46,6 +46,5 @@ export const PROJECTS = [
 
 export const CONTACT = {
   address: "London, United Kingdom ",
-  phoneNo: "+12 4555 666 00 ",
   email: "atharvavc04@gmail.com",
 };
