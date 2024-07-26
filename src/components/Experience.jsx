@@ -26,7 +26,11 @@ const Experience = () => {
                 <p className="mb-2 text-sm text-neutral-100">{experience.year}</p>
              </motion.div>
 
-             <div className="w-full max-w-xl lg:w-3/4">
+             <motion.div 
+              whileInView={{opacity: 1, x: 0}}
+              initial={{opacity: 0, x: 100}}
+              transition={{duration: 1}}
+              className="w-full max-w-xl lg:w-3/4">
                <h6 className="mb-2 font-semibold">
                  {experience.role} - {" "}
                  <span className="text-sm text-purple-100">
@@ -37,7 +41,8 @@ const Experience = () => {
                {experience.technologies.map((tech, index) => (
                 <span key={index} className="px-2 py-1 mt-4 mr-2 text-sm font-medium rounded text-cyan-400 bg-neutral-900">{tech}</span>
                ))}
-            </div>
+            </motion.div>
+            
           </div>
         ))}
       </div>
