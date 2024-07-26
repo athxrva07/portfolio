@@ -8,6 +8,7 @@ const About = () => {
         <span className="text-neutral-500"> ME</span>
     </h2>
     <div className="flex flex-wrap">
+      
         <motion.div 
         whileInView={{opacity: 1, x: 0}}
         initial={{opacity: 0, x: -100}}
@@ -27,6 +28,7 @@ const About = () => {
               <p className="max-w-xl py-6 my-8 font-light tracking-tighter">{ABOUT_TEXT}</p>
             </div>
         </motion.div>
+        
     </div>
   </div>
   };
