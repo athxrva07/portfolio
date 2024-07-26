@@ -4,6 +4,7 @@ import { TbBrandMongodb } from "react-icons/tb";
 import { SiExpress } from "react-icons/si";
 import { RiReactjsLine } from "react-icons/ri";
 import { RiNodejsLine } from "react-icons/ri";
+import { TbBrandMysql } from "react-icons/tb";
 
 const Technologies = () => {
   return (
@@ -27,6 +28,9 @@ const Technologies = () => {
         </div>
         <div className="p-4 border-4 rounded-2xl border-neutral-800">
             <RiNodejsLine className="text-7xl text-cyan-400"/>
+        </div>
+        <div className="p-4 border-4 rounded-2xl border-neutral-800">
+            <TbBrandMysql className="text-7xl text-cyan-400"/>
         </div>
       </div>
     </div>
