@@ -23,7 +23,7 @@ export const PROJECTS = [
     image: project1,
     link: "https://github.com/athxrva07/Draw-Shapes",
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+      "Developed a game using Swiftbot, a Raspberry Pi robot with wheels, a camera, and lights. • Utilized an API provided by the university for integration and functionality enhancement. • Implemented functionality to scan and decode QR codes on instruction. • Programmed the robot to move and draw either a square or a triangle based on decoded text. • Generated a text file containing detailed information about all the shapes drawn.",
     technologies: ["Java", "Raspberry Pi", "Motion Control", "File Handling", "API Integration"],
   },
   {
@@ -31,7 +31,7 @@ export const PROJECTS = [
     image: project2,
     link: "https://athxrva07.github.io/Currency-Converter/",
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
+      "Developed a Currency Converter Website that allows users to convert amounts from one currency to another using real-time exchange rates. • Integrated real-time exchange rates API for accurate and up-to-date currency conversions. • Designed a simple and user-friendly interface for seamless user experience. • Enabled users to convert amounts between different currencies efficiently.",
     technologies: ["HTML", "CSS", "JavaScript", "API Integration"],
   },
   {
@@ -41,14 +41,6 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "JavaScript", "Frontend Design"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    link: "",
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
   },
 ];
 
